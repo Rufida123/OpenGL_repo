@@ -1,4 +1,5 @@
-﻿  main.cpp
+﻿  glad.c
+  main.cpp
   shaderClass.cpp
 C:\Users\rufida\Desktop\OpenGL_repo\OpenGL Code\shaderClass.cpp(39,36): warning C4101: 'e': unreferenced local variable
   stb_image.cpp
