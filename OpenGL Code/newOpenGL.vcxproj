@@ -71,20 +71,20 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\rufida\Desktop\OpenGL_repo\OpenGL Code\Libraries;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\rufida\Desktop\OpenGL_repo\OpenGL Code\Libraries;$(LibraryPath)</LibraryPath>
+    <IncludePath>.\Libraries;$(IncludePath)</IncludePath>
+    <LibraryPath>.\Libraries;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>C:\Users\rufida\Desktop\OpenGL_repo\OpenGL Code\Libraries;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\rufida\Desktop\OpenGL_repo\OpenGL Code\Libraries;$(LibraryPath)</LibraryPath>
+    <IncludePath>.\Libraries;$(IncludePath)</IncludePath>
+    <LibraryPath>.\Libraries;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\rufida\Desktop\OpenGL_repo\OpenGL Code\Libraries;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\rufida\Desktop\OpenGL_repo\OpenGL Code\Libraries;$(LibraryPath)</LibraryPath>
+    <IncludePath>.\Libraries;$(IncludePath)</IncludePath>
+    <LibraryPath>.\Libraries;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>C:\Users\rufida\Desktop\OpenGL_repo\OpenGL Code\Libraries;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\rufida\Desktop\OpenGL_repo\OpenGL Code\Libraries;$(LibraryPath)</LibraryPath>
+    <IncludePath>.\Libraries;$(IncludePath)</IncludePath>
+    <LibraryPath>.\Libraries;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -147,7 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\OneDrive\Documents\OpenGl\glad.c" />
+    <ClCompile Include="glad.c" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="shaderClass.cpp" />
     <ClCompile Include="stb_image.cpp" />

@@ -1,2 +1,2 @@
 C:\Users\rufida\source\repos\newOpenGL\x64\Debug\newOpenGL.exe
-C:\Users\rufida\Desktop\OpenGL_repo\OpenGL Code\x64\Debug\newOpenGL.exe
+C:\Users\rufida\Desktop\OpenGl_repo\OpenGL Code\x64\Debug\newOpenGL.exe
